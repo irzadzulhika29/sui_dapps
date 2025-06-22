@@ -89,10 +89,12 @@ Timestamp: ${new Date().toLocaleString()}`);
 
       setOutputMessage(`✅ Signature Validation
 Status: Success
-Hash: ${truncatedHash}`);
+Hash: ${truncatedHash}
+Timestamp: ${new Date().toLocaleString()}`);
     } catch (e) {
       setOutputMessage(`✅ Signature Validation
-Status: Failed`);
+Status: Failed
+Timestamp: ${new Date().toLocaleString()}`);
     }
   }
 
